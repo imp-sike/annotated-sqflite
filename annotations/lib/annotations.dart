@@ -1,7 +1,4 @@
 library annotations;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/dao.dart';
+export 'src/data_class.dart';
